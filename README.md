@@ -1,1 +1,6 @@
 # House-price-prediction
+The code demonstrates a typical machine learning workflow for house price prediction using linear regression. It begins by loading a dataset containing various features related to houses, such as the number of bedrooms, bathrooms, square footage, etc. The code performs exploratory data analysis (EDA), including displaying the dataset's first few rows, summary statistics, and checking for missing values. It also visualizes the feature correlations using a heatmap.
+
+After preprocessing the data by selecting the relevant features and the target variable (house prices), the dataset is split into training and testing sets. A linear regression model is then created, trained on the training data, and evaluated using metrics like Mean Squared Error (MSE) and R-squared (R2). The code further visualizes the model's predictions against actual prices using scatter and residual plots.
+
+Finally, the code demonstrates how to make predictions on new data, offering a glimpse into how the trained model can be used to estimate house prices for new input features. This script provides a comprehensive example of building and evaluating a linear regression model for house price prediction.
